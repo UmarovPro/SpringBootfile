@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mohirdev
+    username: mohirdev
+    password: 123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+    hibernate:
+      ddl-auto: update
+upload:
+  server:
+    folder: /my documents/Programming/Mohirdev/04.Spring boot/26-dars
+
+api:
+  jsonplaceholder: https://jsonplaceholder.typicode.com
+
+
